@@ -12,9 +12,9 @@
 
 var through2 						= require('through2'),
 	PluginError						= require('plugin-error'),
-	SVGSpriter						= require('svg-sprite'),
+	SVGSpriter						= require('@fullstax/svg-sprite'),
 
-	PLUGIN_NAME						= 'gulp-svg-sprite';
+	PLUGIN_NAME						= 'gulp-fullstax-svg-sprite';
 
 /**
  * Plugin level function
